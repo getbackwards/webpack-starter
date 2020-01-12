@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    // mode: 'development',
+    mode: 'development',
     entry: './src/index.js',
     output: {
         filename: 'main.js',
@@ -25,8 +25,7 @@ module.exports = {
     module: {
         rules: [
             {
-                // test: [/.js$|.ts$/],
-                test: [/.ts$|.js$/],
+                test: [/.js$|.ts$/],
                 exclude: /(node_modules)/,
                 use: {
                     loader: 'babel-loader',
