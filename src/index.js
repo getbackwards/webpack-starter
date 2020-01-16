@@ -1,3 +1,5 @@
+import '../src/style.css';
+
 import { Header } from './app/header';
 import { Footer } from './app/footer';
 
