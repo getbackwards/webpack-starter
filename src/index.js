@@ -1,4 +1,5 @@
 import '../src/style.css';
+import './styles/scss/main.scss';
 
 import { Header } from './app/header';
 import { Footer } from './app/footer';
