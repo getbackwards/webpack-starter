@@ -1,5 +1,10 @@
 $h3-bg-color: #47ffb8;
 
+body {
+  background-color: plum;
+}
+
 h3 {
   background-color: $h3-bg-color;
+  user-select: none;
 }
